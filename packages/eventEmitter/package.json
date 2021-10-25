@@ -1,0 +1,30 @@
+{
+  "name": "@hutool/eventEmitter",
+  "version": "0.3.15",
+  "description": "一个高性能的发布订阅类，适用于 Node.js 和 Browser",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w"
+  },
+  "homepage": "https://github.com/ruixijiejie/hutool",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ruixijiejie/hutool.git"
+  },
+  "author": "IRIS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruixijiejie/hutool/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eventemitter3": "^3.1.0"
+  }
+}

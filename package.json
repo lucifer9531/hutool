@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "boot": "lerna bootstrap",
+    "watch": "lerna run watch --parallel",
+    "build": "lerna run build",
+    "commit": "lerna publish  --conventional-commits --no-verify-access --force-publish",
+    "pub": "lerna publish --no-verify-access"
+  },
+  "homepage": "https://github.com/ruixijiejie/hutool",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ruixijiejie/hutool.git"
+  },
+  "author": "IRIS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruixijiejie/hutool/issues"
+  },
+  "devDependencies": {
+    "lerna": "^3.4.1",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2",
+    "tslint-config-prettier": "^1.17.0"
+  }
+}

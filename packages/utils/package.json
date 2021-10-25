@@ -1,0 +1,30 @@
+{
+  "name": "@hutool/utils",
+  "version": "0.3.14",
+  "description": "常用的JS函数工具库",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w"
+  },
+  "homepage": "https://github.com/ruixijiejie/hutool",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ruixijiejie/hutool.git"
+  },
+  "author": "IRIS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruixijiejie/hutool/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.18"
+  }
+}

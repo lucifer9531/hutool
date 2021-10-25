@@ -1,0 +1,31 @@
+{
+  "name": "@hutool/storage",
+  "version": "0.3.14",
+  "description": "一个优雅的console类，适用于 Node.js 和 Browser",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w"
+  },
+  "homepage": "https://github.com/ruixijiejie/hutool",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ruixijiejie/hutool.git"
+  },
+  "author": "IRIS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruixijiejie/hutool/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@types/store": "^2.0.1",
+    "store": "^2.0.12"
+  }
+}
