@@ -1,6 +1,6 @@
 {
   "name": "@hutool/console",
-  "version": "0.3.16",
+  "version": "0.4.12",
   "description": "一个优雅的console类，适用于 Node.js 和 Browser",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
