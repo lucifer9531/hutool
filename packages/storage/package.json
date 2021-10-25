@@ -1,6 +1,6 @@
 {
   "name": "@hutool/storage",
-  "version": "0.3.14",
+  "version": "0.3.16",
   "description": "一个优雅的console类，适用于 Node.js 和 Browser",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",

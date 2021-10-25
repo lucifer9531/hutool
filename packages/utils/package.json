@@ -1,6 +1,6 @@
 {
   "name": "@hutool/utils",
-  "version": "0.3.14",
+  "version": "0.3.16",
   "description": "常用的JS函数工具库",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
