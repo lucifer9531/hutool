@@ -191,6 +191,11 @@
         "signature": "618a1c7ae3a530030a6c8f1a41dbe69c9fa6b037320101b00a937575c24fad98",
         "affectsGlobalScope": false
       },
+      "./src/methods/delay.ts": {
+        "version": "713a7050d4ee2d00616c382d1f13c3badc6cae86195e907f16e9fa54d4301fb7",
+        "signature": "1919839a79ea84db1afc90cc0da56f3a12ae79e89cb0356534761314268797dc",
+        "affectsGlobalScope": false
+      },
       "./src/methods/json.ts": {
         "version": "3da11db27a32fe1d6d34f46928f05f63c1f3e2ed34bcce79958f9b8536829e6c",
         "signature": "5c6d71aae0b903aa50312d189a08824cbc63b44cf1bb1e7a217829b52fde254c",
@@ -882,6 +887,7 @@
       "./src/basictype/isstring.ts",
       "./src/basictype/isundefined.ts",
       "./src/client/env.ts",
+      "./src/methods/delay.ts",
       "./src/methods/json.ts",
       "./src/methods/object.ts",
       "./src/methods/string.ts",
